@@ -1,0 +1,49 @@
+body{
+    margin: 0 auto;
+   max-width: 700px;
+   background-color: #333;
+   text-align: center;
+}
+h1{
+    color: orange;
+    margin: 4rem 0;
+}
+h1 span{
+
+    background-color: black;
+    color:blue;
+    padding: 5px 5px;
+    height: 20px;
+}
+.container{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    box-shadow: 5px 10px 15px 10px ;
+    margin: 2rem auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.element{
+    width:100px;
+    height: 100px;
+    border: 1px solid beige;
+    box-shadow: 0 0 10px 2px;
+    border-radius: 5px;
+    color: beige;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.element:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+#selectcolor{
+    padding-top: 0;
+    margin-top:5rem;
+    margin-left: 10px;
+    margin-right:10px;
+}
